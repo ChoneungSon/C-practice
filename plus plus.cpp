@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int x = 0;
+	printf("현재의 x는 %d 입니다.\n", x);
+	printf("현재의 x는 %d 입니다.\n", ++x);
+	printf("현재의 x는 %d 입니다.\n", x++);
+	printf("현재의 x는 %d 입니다.\n", x);
+	printf("현재의 x는 %d 입니다.\n", --x);
+	return 0;
+}
